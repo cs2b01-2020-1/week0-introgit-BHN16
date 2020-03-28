@@ -15,7 +15,7 @@ def comparacion(a, b):
     return round(((coincidence/size)*100),2)             
         
                 
-#location = os.getcwd() + "/genomas"
+
 files = glob.glob(os.getcwd()+"/genomas/*.txt")
 read = None
 arr = None
